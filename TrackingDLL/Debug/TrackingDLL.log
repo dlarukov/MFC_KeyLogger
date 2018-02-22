@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  TrackingDLL.cpp
+dllmain.obj : warning LNK4229: встретилась недопустимая директива "/def:dll.def"; не учитывается
+     Создается библиотека C:\Users\КнышенкоД\documents\visual studio 2015\Projects\MFC_Exam\Debug\TrackingDLL.lib и объект C:\Users\КнышенкоД\documents\visual studio 2015\Projects\MFC_Exam\Debug\TrackingDLL.exp
+  TrackingDLL.vcxproj -> C:\Users\КнышенкоД\documents\visual studio 2015\Projects\MFC_Exam\Debug\TrackingDLL.dll
+  TrackingDLL.vcxproj -> C:\Users\КнышенкоД\documents\visual studio 2015\Projects\MFC_Exam\Debug\TrackingDLL.pdb (Full PDB)

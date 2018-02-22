@@ -1,0 +1,5 @@
+﻿  ExamDialogSecond.cpp
+c:\users\кнышенкод\documents\visual studio 2015\projects\mfc_exam\mfc_exam\examdialogsecond.cpp(53): warning C4800: BOOL: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+c:\users\кнышенкод\documents\visual studio 2015\projects\mfc_exam\mfc_exam\examdialogsecond.cpp(54): warning C4800: BOOL: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+  MFC_Exam.vcxproj -> C:\Users\КнышенкоД\documents\visual studio 2015\Projects\MFC_Exam\Debug\MFC_Exam.exe
+  MFC_Exam.vcxproj -> C:\Users\КнышенкоД\documents\visual studio 2015\Projects\MFC_Exam\Debug\MFC_Exam.pdb (Partial PDB)
