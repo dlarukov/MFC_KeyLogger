@@ -10,7 +10,6 @@
 
 #include "resource.h"		// main symbols
 
-
 // CMFC_ExamApp:
 // See MFC_Exam.cpp for the implementation of this class
 //

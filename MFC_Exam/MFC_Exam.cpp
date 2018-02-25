@@ -4,11 +4,19 @@
 
 #include "stdafx.h"
 #include "MFC_Exam.h"
-#include "examDialogFirst.h"
+#include "ExamDialogFirst.h"
+#include "Options.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
+
+
+TCHAR Options::pathStatFile[MAX_PATH];
+bool Options::keyStat = false;
+
+TCHAR Options::pathAppFile[MAX_PATH];
+bool Options::appStat = false;
 
 
 // CMFC_ExamApp

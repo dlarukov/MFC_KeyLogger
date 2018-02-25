@@ -1,6 +1,5 @@
 #pragma once
 
-
 // диалоговое окно ExamDialogSecond
 
 class ExamDialogSecond : public CDialogEx
@@ -28,4 +27,5 @@ public:
 	afx_msg void OnBnClickedButton2();
 	BOOL keysCheck;
 	BOOL appsCheck;
+    afx_msg void OnBnClickedButton3();
 };
